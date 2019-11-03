@@ -1,6 +1,21 @@
-#searchBtn{
- 
-}
+
 p {
     display: inline;
+}
+.card-body{
+    background-color: #007bff;
+    color: white;
+}
+
+#today{
+    height: 300px;
+    width: 350px;
+    right: 50px;
+    border: 2px black;
+}
+.card{
+    width: 250px;
+}
+.jumbotronWrap{
+    right: 20px;
 }
