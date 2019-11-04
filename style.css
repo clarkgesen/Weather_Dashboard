@@ -15,7 +15,8 @@ p {
 }
 .card{
     width: 250px;
+    border: 1px solid white;
 }
-.jumbotronWrap{
-    right: 20px;
+.jumbotron{
+    left: 1000px;
 }

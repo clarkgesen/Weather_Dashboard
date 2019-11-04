@@ -7,7 +7,6 @@ $(document).ready(function () {
         }
         var city = document.getElementById("cityName").value;
         cities.push(city);
-        console.log(test);
         var city = document.getElementById("cityName").value;
         console.log(city);
         var url1 = `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${apiKey}&units=imperial`;
