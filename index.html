@@ -24,29 +24,30 @@
     </row>
   </form>
   <row>
-  <container class="jumbotronWrap">
-    <div id="today" class="jumbotron">
-      <h2 class="city today"></h2><br>
-      <i id="todayWeather"></i><br>
-      <p class="today">Temperature: </p>
-      <p class="temp today"></p>
-      <p class="today">℉</p><br>
-      <p class="today">Humidity: </p>
-      <p class="humidity today"></p>
-      <p class="today">%</p><br>
-      <p class="today">Wind Speed: </p>
-      <p class="wind today"></p>
-      <p class="today"> MPH</p><br>
-      <p class="today">UV Index: </p>
-      <p class="UV today"></p>
-    </div>
-  </container>
+    <container class="jumbotronWrap">
+      <div id="today" class="jumbotron">
+        <h2 class="city today"></h2><br>
+        <i id="todayWeather"></i><br>
+        <p class="today">Temperature: </p>
+        <p class="temp today"></p>
+        <p class="today">℉</p><br>
+        <p class="today">Humidity: </p>
+        <p class="humidity today"></p>
+        <p class="today">%</p><br>
+        <p class="today">Wind Speed: </p>
+        <p class="wind today"></p>
+        <p class="today"> MPH</p><br>
+        <p class="today">UV Index: </p>
+        <p class="UV today"></p>
+      </div>
+    </container>
   </row>
   <container id="cities">
 
   </container>
   <row>
-    <div id="card1" style="width: 13rem;">
+    <container id="cards">
+    <div id="card1" class="d-inline card-column" style="width: 12rem;">
       <div class="card-body">
         <h5 id="day1" class="card-title"></h5>
         <i id="day1Weather"></i><br>
@@ -58,7 +59,7 @@
         <p>%</p>
       </div>
     </div>
-    <div id="card2" style="width: 13rem;">
+    <div id="card2" class="d-inline card-column" style="width: 12rem;">
       <div class="card-body">
         <h5 id="day2" class="card-title"></h5>
         <i id="day2Weather"></i><br>
@@ -69,39 +70,43 @@
         <p id="day2Hum"></p>
         <p>%</p>
       </div>
-      <div id="card3" style="width: 13rem;">
-        <div class="card-body">
-          <h5 id="day3" class="card-title"></h5>
-          <i id="day3Weather"></i><br>
-          <p>Temperature: </p>
-          <p id="day3Temp"></p>
-          <p>℉</p><br>
-          <p>Humidity: </p>
-          <p id="day3Hum"></p>
-          <p>%</p>
-        </div>
-        <div id="card4" style="width: 13rem;">
-          <div class="card-body">
-            <h5 id="day4" class="card-title"></h5>
-            <i id="day4Weather"></i><br>
-            <p>Temperature: </p>
-            <p id="day4Temp"></p>
-            <p>℉</p><br>
-            <p>Humidity: </p>
-            <p id="day4Hum"></p>
-            <p>%</p>
-          </div>
-          <div id="card5" style="width: 13rem;">
-            <div class="card-body">
-              <h5 id="day5" class="card-title"></h5>
-              <i id="day5Weather"></i><br>
-              <p>Temperature: </p>
-              <p id="day5Temp"></p>
-              <p>℉</p><br>
-              <p>Humidity: </p>
-              <p id="day5Hum"></p>
-              <p>%</p>
-            </div>
+    </div>
+    <div id="card3" class="d-inline card-column" style="width: 12rem;">
+      <div class="card-body">
+        <h5 id="day3" class="card-title"></h5>
+        <i id="day3Weather"></i><br>
+        <p>Temperature: </p>
+        <p id="day3Temp"></p>
+        <p>℉</p><br>
+        <p>Humidity: </p>
+        <p id="day3Hum"></p>
+        <p>%</p>
+      </div>
+    </div>
+    <div id="card4" class="d-inline card-column" style="width: 12rem;">
+      <div class="card-body">
+        <h5 id="day4" class="card-title"></h5>
+        <i id="day4Weather"></i><br>
+        <p>Temperature: </p>
+        <p id="day4Temp"></p>
+        <p>℉</p><br>
+        <p>Humidity: </p>
+        <p id="day4Hum"></p>
+        <p>%</p>
+      </div>
+    </div>
+    <div id="card5" class="d-inline card-column" style="width: 12rem;">
+      <div class="card-body">
+        <h5 id="day5" class="card-title"></h5>
+        <i id="day5Weather"></i><br>
+        <p>Temperature: </p>
+        <p id="day5Temp"></p>
+        <p>℉</p><br>
+        <p>Humidity: </p>
+        <p id="day5Hum"></p>
+        <p>%</p>
+      </div>
+    </container>
   </row>
 
 </body>

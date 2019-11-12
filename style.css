@@ -10,13 +10,25 @@ p {
 #today{
     height: 300px;
     width: 350px;
-    right: 50px;
+    top: 80px;
+    right: 0;
     border: 2px black;
 }
 .card{
     width: 250px;
     border: 1px solid white;
 }
-.jumbotron{
-    left: 1000px;
+.jumbotronWrap{
+    top: 50px;
+    float: right;
+    left: 35%;
+}
+.card-body{
+    float: left;
+    width: 12%;
+}
+#cards{
+    position: relative;
+    top: 300px;
+    margin-top: 10px;
 }
