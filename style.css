@@ -8,24 +8,20 @@ p {
 }
 
 #today{
+    position: relative;
     height: 300px;
     width: 350px;
-    top: 80px;
-    right: 0;
-    border: 2px black;
+    top: -20px;
+    float: left;
+    left: 500px;
 }
 .card{
     width: 250px;
     border: 1px solid white;
 }
-.jumbotronWrap{
-    top: 50px;
-    float: right;
-    left: 35%;
-}
 .card-body{
     float: left;
-    width: 12%;
+    width: 13%;
 }
 #cards{
     position: relative;
